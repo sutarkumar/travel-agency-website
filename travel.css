@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+header {
+  background: url('https://png.pngtree.com/background/20230410/original/pngtree-color-grid-background-picture-image_2385259.jpg');
+  color: white;
+  padding: .05px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+
+}
+
+nav ul li {
+  display: inline;
+  margin: 15px;
+}
+
+nav a {
+  color: rgb(243, 234, 234);
+  text-decoration: none;
+  flex-direction: column;
+  
+  
+}
+
+.hero {
+  background: url('https://static.vecteezy.com/system/resources/previews/027/597/935/non_2x/sunset-backdrop-with-taj-mahal-in-agra-india-silhouette-concept-free-photo.jpg') no-repeat center center/cover;
+  color: rgb(255, 255, 255);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.featured-destinations {
+  padding: 20px;
+}
+
+.destination {
+  margin: 20px 0;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#tech1 {
+  font-size: 50px;
+}
+#tech2 {
+  font-size: 110px;
+  
+}
+#tech3 {
+  font-size: 25px;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+  background: #111;
+}
+.footercontainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialicon{
+  display: flex;
+  justify-content: center;
+}
+.socialicon a{
+ text-decoration: none;
+ padding: 10px;
+ background: #f7f5f5;
+ margin: 10px;
+ border-radius: 50%;
+}
+.socialicon a i{
+  color: black;
+  opacity: 0.9;
+  font-size: 2em;
+}
+.socialicon a:hover{
+  background:#111;
+  transition: 0.3s;
+}
+.socialicon a:hover i{
+  transition: 0.4s;
+  color: white;
+}
+.footernav {
+  margin: 30px;
+
+}
+.footernav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+.footernav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.3;
+  transition: 0.5;
+
+}
+.footernav ul li a:hover{
+  opacity: 1;
+}
+.footerbottom{
+  background: #111;
+  padding: 20px;
+  text-align: center;
+}
+.footerbottom p{
+  color: white;
+}
+.Design{
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 5px;
+  
+}
+.card1{
+  top: 20px;
+  position: relative;
+  left: 20px;
+ 
+  
+  
+  
+}
+.card2{
+  top:0;
+  left: 40%;
+  position: relative;
+  margin-top: 0%;
+  transform: translate(-50%, -20%);
+}
+.card3{
+  top:0;
+  left: 70%;
+  position: relative;
+  margin-top: 0%;
+  transform: translate(-50%, -70%);
+}
+
+.services{
+display: flex;
+box-sizing: border-box;
+
+}
+.card1 img{
+width: 450px;
+
+box-shadow:  1px 1px 1px  rgb(103, 98, 98);
+}
+.card2 img{
+  width: 450px;
+  box-shadow: 1px 1px 1px  grey;
+  }
+  .card3 img{
+    width: 450px;
+    box-shadow: 1px 1px 1px  grey;
+    }
+    .contact form{
+      max-width: 70rem;
+      margin: 1rem auto;
+      text-align: center;
+      
+  }
+  
+  .contact form .inputBox{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }     
+  .contact form .inputBox input{
+    width: 49%;
+
+}
+.user:hover{
+  scale: 1.2;
+  transition: .5s;
+  
+}
+.s:hover{
+  box-shadow: 10px 10px 10px black;
+}
+
+
+

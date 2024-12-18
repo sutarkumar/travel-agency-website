@@ -1,0 +1,65 @@
+body{
+  background-image: url("https://images.contentstack.io/v3/assets/blt62d40591b3650da3/blt709f9d0ad6ed85ee/658ee412a2c41ff5ffdb0b2d/hero_PR1497_FamilyRoadTrip_Banner.jpg?auto=webp&width=1440");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  align-items: center;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgb(0,0,0,0.5);
+  box-shadow: inset -5px -5px rgb(0,0,0,0.5);
+  top: 50%;
+  left: 50%;
+  position:fixed;
+  transform: translate(-50% ,-60%);
+
+}
+.form h1{
+  color: aliceblue;
+  font-size: 2rem;
+  border-bottom: 4px solid rgb(255,255,255,0.5);
+  text-underline-position: below;
+}
+
+.box{
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  width: 65%;
+  box-shadow: 10px 10px grey;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: inset -5px -5px rgb(0,0,0,0.5);
+  font-size: 1.5rem;
+  color: white;
+}
+#submit{
+  padding: 10px 20px;
+  margin-top: 50px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  outline: none;
+
+}
+#submit:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+
+
+}
+::placeholder{
+  color: white;
+}
+
+
